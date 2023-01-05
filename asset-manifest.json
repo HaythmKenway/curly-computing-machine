@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/curly-computing-machine/static/css/main.756af292.css",
+    "main.js": "/curly-computing-machine/static/js/main.fe7d16b4.js",
+    "static/js/787.d0730385.chunk.js": "/curly-computing-machine/static/js/787.d0730385.chunk.js",
+    "static/media/logo.png": "/curly-computing-machine/static/media/logo.c9388ef7e1bcf5c01acf.png",
+    "index.html": "/curly-computing-machine/index.html",
+    "main.756af292.css.map": "/curly-computing-machine/static/css/main.756af292.css.map",
+    "main.fe7d16b4.js.map": "/curly-computing-machine/static/js/main.fe7d16b4.js.map",
+    "787.d0730385.chunk.js.map": "/curly-computing-machine/static/js/787.d0730385.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756af292.css",
+    "static/js/main.fe7d16b4.js"
+  ]
+}
