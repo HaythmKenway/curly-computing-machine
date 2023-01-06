@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from './../image/logo.png'
 function Nav(){
     return(
         <div classname="Nav">
@@ -10,7 +11,7 @@ function Nav(){
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a class="navbar-brand" href="#">
-            <img src="./images/logo.png" alt="Bootstrap" width="50" height="54"/>
+            <img src={logo} alt="Bootstrap" width="50" height="54"/>
           </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">

@@ -1,14 +1,20 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
+import image1 from './../image/carousel1.jpg'
+import image2 from './../image/carousel2.jpg'
+import image3 from './../image/carousel3.jpg'
+
+
 
 function Sliders() {
   return (
-    <Carousel>
-      <Carousel.Item>
+    <Carousel className='carousel-main'>
+      <Carousel.Item >
         <img
-          className="d-block w-100 h-50"
-          src=".\images\carousel1.jpg"
+          className="d-block w-80"
+          src={image1}
+          style={{ height: '80vh',width:'80vw' }}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,8 +24,9 @@ function Sliders() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-50"
-          src=".\images\carousel2.jpg"
+          className="d-block w-80"
+          src={image2}
+          style={{ height: '80vh',width:'80vw' }}
           alt="Second slide"
           
         />
@@ -32,8 +39,10 @@ function Sliders() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 h-50"
-          src=".\images\carousel3.jpg"
+          className="d-block w-80 "
+          src={image3}
+          style={{ height: '80vh',width:'80vw' }}
+
           alt="Third slide"
         />
 
