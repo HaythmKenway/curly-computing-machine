@@ -1,15 +1,15 @@
-import './App.css';
+import '../components/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './navbar'
-import Sliders from './caurosel';
-import joinUs from './joinus';
+import Nav from '../components/navbar'
+import Sliders from '../components/caurosel';
+import JoinUs from '../components/joinus';
 
 function App() {
   return (
     <div className="App">
      <Nav/> 
      <Sliders/>     
-    <joinUs />
+     <JoinUs/>     
     </div>
     
   );

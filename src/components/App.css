@@ -39,5 +39,21 @@
 
 .carousel-main{
  align-items: center;
+ display: contents;
  text-align: -webkit-center
+}
+.section1{
+  background-image: url('../image/layeredPeak.svg');
+  height: max-content;
+  display: flex;
+}
+.section2{
+  background-image: url('../image/layeredPeak1.svg');
+}
+.newsletter{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30vh 50px 30vh;
 }
