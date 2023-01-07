@@ -5,9 +5,10 @@ import Sliders from '../components/caurosel';
 import JoinUs from '../components/joinus';
 import Footer from '../components/footer';
 import Testimonial from '../components/testimonial';
-function App() {
+
+function Home() {
   return (
-    <div className="App">
+    <div className="App Home">
      <Nav/> 
      <Sliders/>     
      <JoinUs/>    
@@ -18,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

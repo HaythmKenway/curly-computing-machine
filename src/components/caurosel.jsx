@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
-import image1 from './../image/carousel1.jpg'
-import image2 from './../image/carousel2.jpg'
-import image3 from './../image/carousel3.jpg'
+import image1 from '../image/carousel1.jpg'
+import image2 from '../image/carousel2.jpg'
+import image3 from '../image/carousel3.jpg'
 const slides = [
   {
     image: image1,
