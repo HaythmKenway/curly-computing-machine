@@ -4,7 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import image1 from './../image/carousel1.jpg'
 import image2 from './../image/carousel2.jpg'
 import image3 from './../image/carousel3.jpg'
-import CarouselElements from './carouselElements';
 const slides = [
   {
     image: image1,

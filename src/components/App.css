@@ -49,11 +49,33 @@
 }
 .section2{
   background-image: url('../image/layeredPeak1.svg');
+  padding: 30vh 50px 30vh;
 }
 .newsletter{
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
+  display: flex;
   flex-direction: column;
-  padding: 30vh 50px 30vh;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: rgba(240, 255, 255, 0.632);
+  border-radius: 10px;
+  
+}
+.input{
+  
+  flex-direction: row;
+}
+.footer{
+  background-image: url(../image/footer.svg);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100vw;
+}
+.testimonial{
+  background-color: #cacaca;
+  height: 90vh;
+  width:100vw;
+  background-size: cover;
+  background-clip: padding-box;
+  /* background-position: 50px; */
 }
