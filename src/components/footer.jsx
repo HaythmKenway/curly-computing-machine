@@ -50,3 +50,11 @@ export const Title = styled.p`
   margin-bottom: 40px;
   font-weight: bold;
 `;
+
+function Footer() {
+  return (
+    <div>Footer</div>
+  )
+}
+
+export default Footer;

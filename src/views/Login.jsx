@@ -13,7 +13,7 @@ console.log("login Failed!! Current user: ",res);
 function Login() {
   return (
     <section className='login'>
-      <GoogleOAuthProvider clientId={{clientId}}">...</GoogleOAuthProvider>;
+      {/* <GoogleOAuthProvider clientId={{clientId}}">...</GoogleOAuthProvider>; */}
 
       <div id="signInButton">
         <GoogleLogin
