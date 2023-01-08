@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './../image/logo.png'
+import { Link } from 'react-router-dom'
 function Nav(){
     return(
         <div classname="Nav">
@@ -21,7 +22,8 @@ function Nav(){
                 <a class="nav-link" href="/">our services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href='/'>Dashboard</a>
+                <Link to='/login' class="nav-link ">Dashboard</Link>
+                {/* <a class="nav-link "  href='/'></a> */}
               </li>
             </ul>
             <form class="d-flex" role="search">
