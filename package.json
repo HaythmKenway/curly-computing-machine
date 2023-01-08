@@ -1,0 +1,8 @@
+{
+  "name": "ccm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HaythmKenway/curly-computing-machine.git",
+  "author": "Akileswar",
+  "license": "MIT"
+}
