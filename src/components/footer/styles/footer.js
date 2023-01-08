@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 80px 60px;
-  background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247,1) 100%);
+  background: radial-gradient(circle, #cacaca 0%,#cacaca 100%);
+
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -28,6 +29,7 @@ export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 20px;
+
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
@@ -38,6 +40,7 @@ export const Link = styled.a`
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
+
   &:hover {
       color: #ff9c00;
       transition: 200ms ease-in;
@@ -50,11 +53,3 @@ export const Title = styled.p`
   margin-bottom: 40px;
   font-weight: bold;
 `;
-
-function Footer() {
-  return (
-    <div>Footer</div>
-  )
-}
-
-export default Footer;

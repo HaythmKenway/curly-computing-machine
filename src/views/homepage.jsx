@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from '../components/navbar'
 import Sliders from '../components/caurosel';
 import JoinUs from '../components/joinus';
-import Footer from '../components/footer';
+import FooterContainer from '../containers/footer';
 import Testimonial from '../components/testimonial';
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
      <Sliders/>     
      <JoinUs/>    
      <Testimonial/>
-     <Footer/> 
+     <FooterContainer/> 
     </div>
     
   );

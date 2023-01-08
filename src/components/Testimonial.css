@@ -24,3 +24,9 @@
 .testimonial .slick-dots li {
   top: 15px;
 }
+.testimonial {
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-clip: padding-box;
+    }
