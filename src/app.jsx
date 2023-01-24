@@ -12,6 +12,7 @@ function App() {
         <Route path='login' element={<Login />}/>
         <Route path='logout' element={<Logout />}/>
         <Route path='curly-computing-machine' element={<Home />}/>
+        <Route path='main' element={<main />}/>
     </Routes>
   )
 }
