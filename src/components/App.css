@@ -45,6 +45,7 @@
 .section1{
   background-image: url('../image/layeredPeak.svg');
   height: max-content;
+  background-size: cover;
   display: flex;
 }
 .section2{
@@ -70,7 +71,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width:100vw;
-  background-color: #cacaca;
+  background-color: #000000;
 }
 .testimonial{
   background-color: #cacaca;

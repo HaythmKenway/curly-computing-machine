@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 80px 60px;
-  background: radial-gradient(circle, #cacaca 0%,#cacaca 100%);
+  background: linear-gradient(#cacaca 100%,black 100%);
 
   @media (max-width: 1000px) {
     padding: 70px 30px;
