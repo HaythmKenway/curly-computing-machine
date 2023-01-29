@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../components/navbar';
-import main from '../components/box';
+import box from '../components/box';
 import FooterContainer from '../containers/footer';
 
 

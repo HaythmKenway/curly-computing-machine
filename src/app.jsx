@@ -3,6 +3,7 @@ import Home from './views/homepage';
 import Login from './views/Login';
 import Logout from './views/Logout';
 import { Route, Routes } from 'react-router-dom'
+import main from './views/main';
 function App() {
   return (
     <Routes>
